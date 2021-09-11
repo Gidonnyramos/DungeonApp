@@ -9,7 +9,9 @@ namespace Dungeon
     class Program
     {
         static void Main(string[] args)
-        {
+        {//TODO Create a loop for the room and a monster to be created.
+         //counter
+
         }
     }
 }
