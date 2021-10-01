@@ -3,25 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//Add the following to have easier access to the Dungeon Library
+using DungeonLibrary;
 
-namespace DungeonLibrary
+namespace DungeonApplication
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Dungeon of Dark Doom!\nYour journey is here...");
-            Console.Title = "DUNGEON OF DARK DOOM";
+            Console.WriteLine("Dungeon of Doom!\nYour journey begins...");
+            Console.Title = "DUNGEON OF DOOM";
 
             //Variable to keep track of the score
             int score = 0;
 
             //TODO Create the player and weapon
-          
-            Weapon sword = new Weapon(1, 8, "Very Long Sword", 10, true);
-            // create multiple weapons and have a menu of weapons for the user to choose from.
+            //Need to learn about custom classes first
+            Weapon sword = new Weapon(1, 8, "Long Sword", 10, true);
+            //You could create multiple weapons and have a menu of weapons for the user to choose from.
             //Console.WriteLine(sword);-This was just for testing the Weapon ToString()
-            Player player = new Player("Scoobie Doom", 70, 5, 50, 40, Race.Toddler, sword);
+            Player player = new Player("Leeeeeeeroy Jenkins", 70, 5, 50, 40, Race.Toddler, sword);
 
             //Outer dowhile loop - manages the entire game
             //TODO Create a loop for the room and monster to be created
@@ -31,11 +33,11 @@ namespace DungeonLibrary
             do
             {
                 //TODO - Create a room
-                //write a method for getting a random room from a collection of rooms created
+                //We are going to write a method for getting a random room from a collection of rooms we create
                 Console.WriteLine(GetRoom());
 
                 //TODO - Create a monster
-                //create many different monsters and randomly select a monster from a collection of monsters.
+                //We are going to create many different monsters and randomly select a monster from a collection of monsters.
                 Rabbit r1 = new Rabbit();
 
                 Rabbit r2 = new Rabbit("White Rabbit", 25, 25, 50, 20, 2, 8, "That's no ordinary rabbit! Look at the bones!", true);
@@ -82,7 +84,7 @@ namespace DungeonLibrary
                             //TODO Handle Attack functionality
                             Combat.DoBattle(player, monster);
 
-                            //Handle the monster dying in case get hit for enough       points
+                            //Handle the monster dying in case we hit them for enough       points
                             if (monster.Life <= 0)
                             {
                                 //monster is dead...reload a new room and monster, as       well as adding to the player's score.
@@ -92,7 +94,7 @@ namespace DungeonLibrary
                                 //get a new room
                                 reload = true;
                                 //add to the player's score
-                                score++;
+                                score++;                               
                             }
                             break;
                         case ConsoleKey.R:
@@ -129,7 +131,7 @@ namespace DungeonLibrary
                     //TODO - Check the player's life
                     if (player.Life <= 0)
                     {
-                        Console.WriteLine("Dude...are a goner. Too bad. Game over!");
+                        Console.WriteLine("Dude...you died. I guess that's game over!");
                         exit = true;
                     }
                 } while (!exit && !reload);

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6943E668-E5DD-4F4D-96D9-EADBBAC65F30}</ProjectGuid>
+    <ProjectGuid>{F4A28D45-10C6-44E8-8D00-C1940AF925F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dungeon</RootNamespace>
-    <AssemblyName>Dungeon</AssemblyName>
+    <RootNamespace>DungeonApplication</RootNamespace>
+    <AssemblyName>DungeonApplication</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DungeonLibrary\DungeonLibrary.csproj">
-      <Project>{af0549f7-b730-4c8c-914c-f393783e823d}</Project>
+      <Project>{895a7061-2192-4d56-a62e-8ab1143efc62}</Project>
       <Name>DungeonLibrary</Name>
     </ProjectReference>
   </ItemGroup>

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon", "Dungeon\Dungeon.csproj", "{6943E668-E5DD-4F4D-96D9-EADBBAC65F30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLibrary", "DungeonLibrary\DungeonLibrary.csproj", "{AF0549F7-B730-4C8C-914C-F393783E823D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6943E668-E5DD-4F4D-96D9-EADBBAC65F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6943E668-E5DD-4F4D-96D9-EADBBAC65F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6943E668-E5DD-4F4D-96D9-EADBBAC65F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0549F7-B730-4C8C-914C-F393783E823D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0549F7-B730-4C8C-914C-F393783E823D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0549F7-B730-4C8C-914C-F393783E823D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0549F7-B730-4C8C-914C-F393783E823D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

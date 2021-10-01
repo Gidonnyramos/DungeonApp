@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DungeonLibrary
+{
+    public enum Race
+    {
+
+        Orc,
+        Human,
+        Elf,
+        Halfling,
+        Gnome,
+        Dwarf,
+        DragonBorn,
+        Canadian,
+        Toddler
+
+    }//end enum
+}//end namespace

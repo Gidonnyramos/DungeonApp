@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6943E668-E5DD-4F4D-96D9-EADBBAC65F30}</ProjectGuid>
+    <ProjectGuid>{AF0549F7-B730-4C8C-914C-F393783E823D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dungeon</RootNamespace>
-    <AssemblyName>Dungeon</AssemblyName>
+    <RootNamespace>DungeonLibrary</RootNamespace>
+    <AssemblyName>DungeonLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Combat.cs" />
+    <Compile Include="Monster.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rabbit.cs" />
+    <Compile Include="Race.cs" />
+    <Compile Include="Turtle.cs" />
+    <Compile Include="Vampire.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DungeonLibrary\DungeonLibrary.csproj">
-      <Project>{af0549f7-b730-4c8c-914c-f393783e823d}</Project>
-      <Name>DungeonLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
