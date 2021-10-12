@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1622
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonApp", "DungeonApplication\DungeonApp.csproj", "{F4A28D45-10C6-44E8-8D00-C1940AF925F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonApplication", "DungeonApplication\DungeonApplication.csproj", "{F4A28D45-10C6-44E8-8D00-C1940AF925F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLibrary", "DungeonLibrary\DungeonLibrary.csproj", "{895A7061-2192-4D56-A62E-8AB1143EFC62}"
 EndProject

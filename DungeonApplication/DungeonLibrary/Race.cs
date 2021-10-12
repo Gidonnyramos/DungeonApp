@@ -19,5 +19,5 @@ namespace DungeonLibrary
         Canadian,
         Toddler
 
-    }
-}
+    }//end enum
+}//end namespace
