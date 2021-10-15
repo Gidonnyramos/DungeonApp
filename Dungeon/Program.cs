@@ -135,15 +135,15 @@ namespace DungeonApplication
         {
             string[] rooms =
             {
-                "The room is dark and full of SHARKS AND the smell lost souls.",
+                "The room is dark and full of SHARKS AND the smell of lost souls.",
                 "You enter a pretty pink powder room and instantly get glitter on you.",
-                "You arrive in a room filled with chairs and a ticket stub machine...DMV",
+                "You arrive in a dance room filled with dancers dancing to Staying Alive. Oh NO!",
                 "You enter a quiet VERY LOUD library... SILENCE... You wish for silence....",
-                "As you enter the room, you know you are standing on a platform surrounded by SHARKS",
-                "Oh NO....It smells like...&^%...You are standing in a pile of SHARKS",
-                "You now go to another dark room; you hear LOUD music blaring.... THis is BADDDD!",
+                "As you enter this room, you know you are standing on a platform surrounded by SHARKS",
+                "Oh NO....It smells like...FEAR...You are standing in a pile of SHARKS",
+                "You now go to another dark room; you hear LOUD music blaring.... THIS is BADDDD!",
                 "Oh NO.... It's even worstl... Sharks Everywhere....",
-                "This new room looks like your parent's office... or does it?"
+                "This DARK new room looks like your parent's office... or does it?"
             };
 
             Random rand = new Random();
@@ -155,4 +155,4 @@ namespace DungeonApplication
             return room;
         }
     }
-}e
+}
